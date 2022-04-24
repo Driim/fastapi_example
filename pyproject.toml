@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.75.2"
+fastapi-health = "^0.4.0"
+uvicorn = "^0.17.6"
+starlette = "^0.17.1"
+fastapi-restful = "^0.4.3"
+SQLAlchemy = "^1.4.35"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+flake8-black = "^0.3.2"
+flake8-bugbear = "^22.3.23"
+flake8-bandit = "^3.0.0"
+pytest = "^7.1.2"
+flake8-commas = "^2.1.0"
+flake8-builtins = "^1.5.3"
+pytest-asyncio = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

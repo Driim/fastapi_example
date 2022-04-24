@@ -1,0 +1,4 @@
+[flake8]
+select = B, B9, BLK, C, E, F, I, S, W
+max-line-length = 100
+import-order-style = google
