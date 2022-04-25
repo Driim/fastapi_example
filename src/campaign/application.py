@@ -1,4 +1,3 @@
-from re import A
 from fastapi import FastAPI
 from src.campaign.configuration import Configuration
 from src.campaign.controllers.campaign import register_campaign_router
